@@ -1,12 +1,5 @@
-type Post = {
-  userId: number;
-  id: number;
-  title: string;
-  body: string;
-};
-
 type User = {
-  id: number;
+  id: number1;
   name: string;
   username: string;
   email: string;
@@ -20,10 +13,18 @@ type User = {
       lng: string;
     };
   };
-  phone: string;
+  phone: number;
+  website: string;
   company: {
     name: string;
     catchPhrase: string;
     bs: string;
   };
+};
+
+type Post = {
+  userId: number;
+  id: number;
+  title: string;
+  body: string;
 };
